@@ -43,14 +43,10 @@ jib {
                 architecture = "arm64"
                 os = "linux"
             }
-            platform {
-                architecture = "amd64"
-                os = "linux"
-            }
         }
     }
     to {
-        image = "hello-github-action"
+        image = "tonton0217/hello-github-action"
         tags = setOf("0.0.1")
     }
     container {
